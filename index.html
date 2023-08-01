@@ -5,72 +5,13 @@
         <title>Calculadora JS</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Lora:wght@700&display=swap" rel="stylesheet">
-        <style>
-            * {
-                text-align: center;
-            }
-            h1 {
-                color: #111;
-                font-family: 'Lato', sans-serif;
-                font-size: 18px;
-                marin: 10px 0
-            }
-            
-            table {
-                margin: 0 auto;
-                border: 2px solid #222;
-                border-radius: 2px;
-            }
-            
-            .botao input {
-                width: 30px;
-                margin: 1px;
-                padding: 2px;
-                border: 2px solid #d3d3d3;
-                border-radius: 5px;
-                background-color: #fff;
-                color: #222;
-            }
-
-            .tela {
-                background-color: #fff;
-            }
-            
-            body{
-                background-color: #fff;
-            }
-            
-            body.modo-noturno {
-                background-color: #111;
-            }
-            
-            .modo-noturno {
-                background-color: #111;
-                border: 2px solid #fff;
-                color: #fff;
-            }
-
-            .botao input .modo-noturno {
-                width: 30px;
-                border: 2px solid #222;
-                background-color: #111;
-                color: #111;
-            }
-
-            h1 .modo-noturno{
-                color: #fff;
-                font-family: 'Lato', sans-serif;
-                font-size: 18px;
-                marin: 10px 0
-            }
-
-        </style>
+        <link rel="stylesheet" href="style.css">
         <script src="js/js.js"></script>
     </head>
     <body>
     <main>
         <h1>Calculadora</h1>
-        <input type="button" id="modo-noturno" value="Modo Noturno" onclick="alternarModo()">
+        <input class="botao__noturno" type="button" id="modo-noturno" value="Modo Noturno" onclick="alternarModo()">
         <form name="calc">
             <table>
                 <tr class="tela">
