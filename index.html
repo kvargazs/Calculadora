@@ -6,32 +6,48 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Lora:wght@700&display=swap" rel="stylesheet">
         <style>
-            *{
+            * {
                 text-align: center;
             }
-            h1{
+            h1 {
                 color: #fff;
                 font-family: 'Lato', sans-serif;
                 font-size: 24px;
+                marin: 10px 0
             }
-            table{
-                margin:0 auto;
-                border: 4px solid #222;
-                border-radius: 10px;
+            table {
+                width: 100%;
+                margin: 0 auto;
+                border: 2px solid #222;
+                border-radius: 8px;
             }
             
-            .botao input{
+            .botao input {
                 width: 30px;
                 margin: 1px;
                 padding: 2px;
-                border: 4px solid #222;
-                border-radius: 10px;
+                border: 2px solid #222;
+                border-radius: 8px;
                 background-color: #333;
                 color: #fff;
             }
 
             .tela {
                 background-color: #fff;
+                border-radius: 8px
+            }
+
+            .tela input {
+                width: 100%; /* Ajuste o tamanho da tela para ocupar todo o espaço disponível na tabela */
+            }
+
+            form {
+                width: 80%; /* Aumente ou diminua o valor conforme necessário */
+                margin: 0 auto; /* Para centralizar horizontalmente */
+                height: 90%; /* Define a altura da calculadora para que ela fique mais centralizada */
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             
             body{
